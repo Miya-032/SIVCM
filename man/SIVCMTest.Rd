@@ -2,7 +2,7 @@
 % Please edit documentation in R/Tools.R
 \name{SIVCMTest}
 \alias{SIVCMTest}
-\title{Model checking test for single-index varying coefficient models (SIVCM) with functional response}
+\title{Model checking test for single-index varying coefficient models (SIVCM) with functional responses}
 \usage{
 SIVCMTest(n, p, m, tm, x, ally, B)
 }
@@ -28,7 +28,7 @@ A list of outputs
 \item{Cri95 }{critical value at significance level 0.05}
 }
 \description{
-test whether the SIVCM with functional response is adequate or not
+test whether the SIVCM with functional responses is adequate or not
 }
 \examples{
 ##---- Step 1: generate data ----

@@ -21,7 +21,7 @@ g2 <- function(xb){xb}
 #' @title Function for generating data
 #'
 #' @description
-#' Generate data for Example 1(a) in "Model Checks on Single-index Varying Coefficient Models with Functional Response".
+#' Generate data for Example 1(a) in "Model Checks on Single-index Varying Coefficient Models with Functional Responses".
 #'
 #' @param n sample size
 #' @param m number of time points
@@ -546,10 +546,10 @@ cvh1 <- function(x, betaest, allxb, ally){
 # ======================================================
 # Main function
 # ======================================================
-#' @title Model checking test for single-index varying coefficient models (SIVCM) with functional response
+#' @title Model checking test for single-index varying coefficient models (SIVCM) with functional responses
 #'
 #' @description
-#' test whether the SIVCM with functional response is adequate or not
+#' test whether the SIVCM with functional responses is adequate or not
 #'
 #' @param n sample size
 #' @param p dimension of covariates \code{x}
@@ -583,7 +583,7 @@ cvh1 <- function(x, betaest, allxb, ally){
 #'
 #' @export
 SIVCMTest <- function(n,p,m,tm,x,ally,B){
-  
+
   #### beta0 <- beta  # initial beta
   beta0 <- solve(t(x) %*% x) %*% (t(x) %*% ally)
 

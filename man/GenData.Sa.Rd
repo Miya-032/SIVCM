@@ -21,7 +21,7 @@ A list of outputs
 \item{beta }{true coefficient functions (p*m matrix)}
 }
 \description{
-Generate data for Example 1(a) in "Model Checks on Single-index Varying Coefficient Models with Functional Response".
+Generate data for Example 1(a) in "Model Checks on Single-index Varying Coefficient Models with Functional Responses".
 }
 \examples{
 ##---- Generate data ----

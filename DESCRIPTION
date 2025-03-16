@@ -1,10 +1,10 @@
 Package: SIVCMTest
 Type: Package
-Title: Model Checks on Single-index Varying Coefficient Models with Functional Response
+Title: Model Checks on Single-index Varying Coefficient Models with Functional Responses
 Version: 1.0
 Author: Qing Jiang, Yanni Zhang
 Maintainer: Yanni Zhang <202321011032@mail.bnu.edu.cn>
-Description: Model checking on single-index varying coefficient models with functional response.
+Description: Model checking on single-index varying coefficient models with functional responses.
 License: GPL (>= 2)
 Encoding: UTF-8
 Imports: Rcpp (>= 1.0.6), MASS, stats, nleqslv
